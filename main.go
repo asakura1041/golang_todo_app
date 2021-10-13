@@ -14,7 +14,7 @@ func main() {
 	// fmt.Println(config.Config.LogFile)
 
 	// log.Println(("test"))
-	fmt.Println(models.Db)	
+	// fmt.Println(models.Db)	
 
 	// u := &models.User{}
 	// u.Name = "test"

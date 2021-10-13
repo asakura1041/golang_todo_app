@@ -42,6 +42,7 @@ func GetUser(id int) (user User, err error) {
   err = Db.QueryRow(cmd, id).Scan(
     &user.ID,
     &user.UUID,
+    &user.Name,
     &user.Email,
     &user.Password,
     &user.CreatedAt,
